@@ -1,6 +1,9 @@
 Gradient-Boosting-Regressor implementation in Cython / Numpy
 
-Compile with 'python setup.py build_ext --inplace'
+Compile with
+```bash
+python setup.py build_ext --inplace
+```
 
 I have added a toy example to benchmark the results with the sklearn GradientBoostingRegressor, feel free to test your own parameters. 
 
